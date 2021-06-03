@@ -39,7 +39,7 @@ const Password = () => {
           className='btn btn-primary'
           disabled={!password || password.lenght < 6 || loading}
         >
-          Submit
+          Submits
         </button>
       </div>
     </form>
